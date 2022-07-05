@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+:root{
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+
+    --textoSizeCuerpo:12px;
+    --textoSizeTitulares:24px;
+    --textoSizePrecios:16px;
+    --textoSizeDescuentos:16px;
+    --textoSizePromociones:16px
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: var( --colorAmarillo);
+    font-family:'Roboto';
+    margin-top:0;
+    margin-bottom:0
+}
+
+
+
+ol, ul{
+    padding:0
+}
+
+li{
+    list-style: none;
+}
+
+
+  
+
+.home_header_menu a{
+    color:black;
+    padding:0 0 0px
+}
+
+.burguer-menu button{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    color:var(--colorGrisClaro) ;
+    background-color:var(--colorCeleste);
+    width:40px ;
+    height:40px;
+    font-size:30px;
+}
+
+body{
+    font-family:'Roboto';
+}
+
+.home_main {
+   background-color:var( --colorGrisClaro);
+   padding:0;
+   border:0;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+.home_body_main_section h2{
+    font-size:var(--textoSizeTitulares);
+    margin-top:0;
+}
+
+.home_body_main_section p{
+    font-size:var(--textoSizePrecios);
+    margin-bottom: 0;
+}
+
+.fa-solid fa-bars i{
+    
+    width:2em;
+    height:2em;
+    font-size:2em;
+    color:var( --colorAzul);
+    margin:0;
+    box-sizing:border-box;
+    margin-bottom:0
+}
+
+
+.home_footer{
+    text-align: center;
+    background-color:white ;
+    margin-top:0
+    
+}
+
+.home_footer i{
+    font-size:2em;
+    color:var( --colorCeleste);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    box-sizing:border-box
+}
+
+.home_footer p{
+    font-size:var( --textoSizeCuerpo);
+} 
+
+
