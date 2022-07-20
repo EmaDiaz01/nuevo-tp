@@ -33,7 +33,7 @@ header{
     margin-bottom:0px;
     margin-left:0px;
     margin-right: 0px;
-  
+    padding-top: 50px;
     
 }
 
@@ -52,24 +52,33 @@ li{
     padding: 20px;
 }
 
-.home_header img{
-    padding-right: 120px;
-    padding-top:20px;
-    padding-left:20px;
-    padding-bottom: 20px;
-    width:250px;
+.logoYDemas{
+    display:flex;
+    width:100%;
+}
+
+
+
+.logoYDemas img{
+    
+    justify-content: flex-start;
 
 }
 
-.home_header_buscar{
-    padding-right:20px;
-    text-align: center;
+.busqueda{
+    justify-content: flex-end;
+    width:40%;
+    margin-bottom: 20px;
 }
 
 .home_header_buscar input{
     min-width: 150px;
-    height:30px;
+    height:10px;
+    font-size:14px
+
 }
+
+
   
 
 .home_header_menu a{
@@ -192,7 +201,18 @@ article div {
 
 }
 
+.precio{
+    display: flex;
+    width: 100%;
+}
 
+.monto{
+    width: 30%;
+}
+
+.descuento{
+    width: 70%;
+}
 
 /*Footer*/
 
@@ -230,46 +250,76 @@ article div {
 
 /*tablet*/
 
+
 @media (min-width:769px){
+    
+    .home_header_menu{
+        
+        display:flex;
+        width: 100%;
+        justify-content: space-between;
+      align-items: center;
+    }
+     
+   
+    .logoYDemas{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .logoYDemas img{
+    
+        width:200px;
+    
+    }
+    
+    .busqueda{
+        justify-content: flex-end;
+        width:20%;
+        margin-bottom: 20px;
+    }
+    
+        
+    
+    }
+    .ofertas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .cuentas{
+        display: flex;
+        flex-direction: row;
+       
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        
+    }
     .burguer-menu button{
         display:none
     }
     
-   
+   .home_body_main_section{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap
+   }
 
     .home_body_main--img{
-        width:40%;
-       display: flex;
-       flex-direction:column;
-        padding: 20px;
+        
+       width:40%;
+       flex-direction: row;
        
     }
     
   
 
-    .home_main{
-        overflow: hidden;
-    }
 
-    .home_header img{
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-       
-    }
-    .home_header_buscar {
-        justify-content: center;
-    }
-
-
-    .home_header_menu ul{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
-    }
+    
 
     .home_body_main--img{
         margin-right: 0px;
@@ -289,6 +339,25 @@ article div {
     .home_body_main_section h4{
         display:none
     }
+    .logoYDemas ul{
+        display:none
+    }
+
+    .logoYDemas i{
+        display:none
+    }
+
+    .home_header p{
+        align-items: center;
+    }
+   
+    .ofertas{
+        display:none
+    }
+
+    .home_body_main_section h4{
+        display:none
+    }
     .home_header_menu a{
         display:none
     }
@@ -297,19 +366,77 @@ article div {
         display:none
     }
 
-    .home_header p{
-        align-items: center;
-    }
-   
-    
-    .home_header_menu ul{
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        
-    }
-
 
 }
 
+@media (min-width:1024px){
+    .home_header_menu{
+        
+        display:flex;
+        width: 100%;
+        justify-content: space-between;
+      align-items: center;
+    }
+     
+   
+    .logoYDemas{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    
+    
+    
+        
+    
+    }
+    .ofertas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .cuentas{
+        display: flex;
+        flex-direction: row;
+       
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        
+    }
+    .burguer-menu button{
+        display:none
+    }
+    
+   .home_body_main_section{
+    width:100%;
+    display:flex
+   }
+
+    .home_body_main--img{
+        width:50%;
+       flex-direction:row;
+       margin:20px
+       
+    }
+    
+  .logoYDemas img{
+    width:200px
+  }
+
+    .home_main{
+        overflow: hidden;
+    }
+
+    .home_body_main--img{
+        margin-right: 0px;
+    }
+
+    .home--p p{
+        display:flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
