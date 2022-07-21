@@ -1,0 +1,28 @@
+
+:root{
+    --colorAmarillo: #EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+
+    --textoSizeCuerpo:12px;
+    --textoSizeTitulares:24px;
+    --textoSizePrecios:18px;
+    --textoSizeDescuentos:16px;
+    --textoSizePromociones:16px;
+    --textoSizeDescripciones: 16px;
+}
+
+.contenedor {
+    width:100%;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+}
+
+*{
+    box-sizing: border-box;
+}

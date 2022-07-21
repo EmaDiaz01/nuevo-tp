@@ -1,0 +1,204 @@
+
+/*Header*/
+
+header{
+    background-color: var( --colorAmarillo);
+    font-family:'Roboto';
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:0px;
+    margin-right: 0px;
+    padding: 10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    
+}
+
+
+
+
+ol, ul{
+    padding:0
+}
+
+li{
+    list-style: none;
+}
+
+.home--p p{
+    text-align: center;
+    padding: 20px;
+}
+
+
+.logoYDemas{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    align-items: center;
+}
+
+
+
+
+
+.home_header img{
+    
+    width:50%
+
+}
+
+
+
+.home__header--busqueda{
+    padding: 12px 5px;
+    width:50%
+}
+
+
+
+.home__header--busqueda input{
+
+    width:100%;
+}
+
+
+.compra{
+    font-size: var(--textoSizeDescripciones);
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+    width:100%
+}
+
+.home_header_menu a{
+    color:black;
+    padding:0 0 0px
+}
+
+.burguer-menu{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.burguer-menu button{
+    background-color: var(--colorCeleste);
+    
+}
+
+body{
+    font-family:'Roboto';
+    background-color:var(--colorGrisClaro);
+    
+}
+
+@media (min-width:769px){
+
+  /*header*/
+
+  header{
+    justify-content: space-between;
+  }
+  .home_header_menu{
+        
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+  align-items: center;
+  
+}
+
+.logoYDemas{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 50px;
+    flex-direction: row;
+} 
+
+.home__header--busqueda{
+    width:30%
+}
+
+.home_header img{
+    
+    width:30%
+
+}
+
+.compra{
+    width:30%
+}
+
+
+.ofertas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.ofertas li{
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+}
+.cuentas{
+    display: flex;
+    flex-direction: row;
+   
+    flex-wrap: wrap;
+    justify-content: flex-end;}
+
+.cuentas li{
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+}
+.burguer-menu{
+    display:none
+}
+}
+
+
+
+
+@media (min-width:1024px){
+    /*header*/
+    
+    .home_header_menu{
+        
+        display:flex;
+        width: 100%;
+        justify-content: space-between;
+      align-items: center;
+    }
+    .logoYDemas{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-bottom: 50px;
+    } 
+   
+
+    
+    }
+    .ofertas{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        
+    }
+    .cuentas{
+        display: flex;
+        flex-direction: row;
+       
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        
+    }
+    

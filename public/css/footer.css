@@ -1,0 +1,33 @@
+/*Footer*/
+
+.home_footer{
+    text-align: center;
+    background-color:white ;
+    margin-top: 0px;
+    padding-top:30px
+}
+.home_footer i{
+    font-size:2em;
+    color:var( --colorCeleste);
+    padding-top: 10px;
+    box-sizing:border-box;
+}
+.home_footer h5{
+    padding-bottom: 0px;
+    margin-top: 10px;
+    margin-bottom:0px
+}
+.home_footer p{
+    font-size:var( --textoSizeCuerpo);
+    padding-bottom: 30px;
+
+}
+
+#iconoDeTarjeta{
+    padding-top:30px
+}
+
+#precio{
+    margin-bottom:0px;
+    padding-left: 30%;
+}

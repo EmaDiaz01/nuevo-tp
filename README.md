@@ -1,14 +1,5 @@
-# TP-Mercado Liebre-etapa III
-## Trabajo Practico N°6
+# TP-Mercado Liebre-etapa IV
+## Trabajo Practico N°7
 ## Nombre:  Diaz Emanuel
 
-color:var(--colorVerde);
-    border-radius: 50%;
-    border: 1px solid var(--colorVerde);
-    padding: 15px;
-    width: 25px;
-    height: 25px;
-    display:flex;
-    justify-content: center;
-    align-items: center; 
-    display: block;
+     
