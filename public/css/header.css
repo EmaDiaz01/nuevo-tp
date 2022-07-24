@@ -110,6 +110,10 @@ body{
     
 }
 
+.show{
+    display: block;
+}
+
 @media (min-width:769px){
 
   /*header*/

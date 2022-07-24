@@ -1,0 +1,96 @@
+/*general*/
+
+/*cajas*/
+
+.form{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap:30px;
+}
+
+.form_title{
+    text-align: center;
+}
+
+.form_subTitle{
+    margin-bottom: 20px;
+}
+
+.form_box{
+    width:100%
+}
+
+.form_box_column{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+
+.form_box--flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px
+}
+
+.form_input{
+    width:100%;
+    padding:10px 0;
+    border:none;
+    border-bottom: 1px solid silver;
+    outline: none;
+}
+
+.form_select{
+    width:100%;
+    padding:10px 0;
+    border: 1px solid silver;
+    background-color: #fff;
+}
+
+.form_text_error{
+    color: red;
+}
+
+/*botones*/
+
+.form__button{
+    border:none;
+    border-radius: 5px;
+    color:#fff;
+    padding: 10px;
+}
+
+.form_button_send{
+    background-color: var(--colorCeleste);
+    cursor: pointer;
+}
+
+.form_button_send:hover{
+    background-color: silver;
+}
+
+
+.form_button_cancel{
+    background-color: grey;
+    cursor: pointer;
+}
+
+
+.form_button_cancel:hover{
+    background-color: red;
+}
+
+
+@media(min-width:769px){
+    .form{
+        flex-direction:row;
+    }
+
+    .form_box{
+        width:47%
+    }
+}
+
+
