@@ -125,21 +125,13 @@ article div {
         align-items: center;
     }
    
-    .ofertas{
-        display:none
-    }
+    
 
     .home_body_main_section h4{
         display:none
     }
     
-    .home_header_menu a{
-        display:none
-    }
-
-    .home_header_menu i{
-        display:none
-    }
+    
     
 }
 

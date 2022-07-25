@@ -5,10 +5,13 @@
 .form{
     display:flex;
     flex-wrap: wrap;
-    flex-direction: column;
     gap:30px;
+    margin-bottom: 20px;
 }
 
+
+
+ 
 .form_title{
     text-align: center;
 }
@@ -16,23 +19,25 @@
 .form_subTitle{
     margin-bottom: 20px;
 }
-
+ 
 .form_box{
-    width:100%
+    width:100%;
+    margin: 0 auto;
 }
 
 .form_box_column{
     display: flex;
     flex-direction: column;
-    gap:5px
+    gap:0px;
 }
 
 .form_box--flex{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:5px
+    gap:0px
 }
+
 
 .form_input{
     width:100%;
@@ -53,18 +58,24 @@
     color: red;
 }
 
+
+
+
 /*botones*/
 
 .form__button{
     border:none;
     border-radius: 5px;
     color:#fff;
-    padding: 10px;
+    padding: 7px;
+    padding-left: 3px;
+    margin-top:21.7px;
 }
 
 .form_button_send{
     background-color: var(--colorCeleste);
     cursor: pointer;
+    width: 100%;
 }
 
 .form_button_send:hover{
@@ -75,6 +86,7 @@
 .form_button_cancel{
     background-color: grey;
     cursor: pointer;
+    width: 100%;
 }
 
 
@@ -89,8 +101,29 @@
     }
 
     .form_box{
-        width:47%
+        width:60%;
     }
+
+    .form_box--flex{
+        margin: 0 auto;
+    }
+
+
+    .form__button{
+        width: 100%;
+    }
+
 }
+
+@media(min-width:1024px){
+
+    .form_box{
+        width:80%;
+    }
+
+}
+
+
+
 
 

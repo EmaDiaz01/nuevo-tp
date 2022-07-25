@@ -54,6 +54,7 @@ li{
 
 
 
+
 header img{
     
     width:45%
@@ -87,10 +88,50 @@ header img{
     width:100%
 }
 
+.home_header_menu{
+    display:none;
+    flex-direction: column;
+}
+
 .home_header_menu a{
     color:black;
-    padding:0 0 0px
+    padding:0 0 0px;
 }
+
+.home_header_menu ul{
+    display:flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.home__header__form_search{
+    width:100%
+}
+
+
+.home__header__form_search {
+    position: relative;
+}
+
+.home__header__form_search input{
+    width:100%;
+    border:1px solid grey;
+    border-radius:5px;
+    padding:10px
+}
+
+.home__header__form_search button{
+    color:grey;
+    border:none;
+    background-color: transparent;
+    position:absolute;
+    top:0;
+    right:0;
+    margin:7px;
+    font-size: 20px;
+    border-left:1px solid gray ;
+}
+
 
 .burguer-menu{
     text-align: center;
@@ -99,9 +140,13 @@ header img{
     margin-bottom: 20px;
 }
 
+
 .burguer-menu button{
     background-color: var(--colorCeleste);
-    
+}
+
+.burguer{
+    margin: 0 auto;
 }
 
 body{
@@ -110,12 +155,13 @@ body{
     
 }
 
-.show{
+.show {
     display: block;
 }
 
 @media (min-width:769px){
 
+  
   /*header*/
 
   header{
@@ -124,10 +170,15 @@ body{
   .home_header_menu{
         
     display:flex;
+    flex-direction: row;
     width: 100%;
     justify-content: space-between;
   align-items: center;
-  
+}
+
+.home_header_menu ul{
+    flex-direction: row;
+    width: 100%;
 }
 
 .logoYDemas{
@@ -158,37 +209,32 @@ body{
     width:30%
 }
 
-
 .ofertas{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-}
-
-.ofertas li{
-    display:inline;
-    padding-left:10px;
-    padding-right:10px;
+    
 }
 .cuentas{
     display: flex;
     flex-direction: row;
    
     flex-wrap: wrap;
-    justify-content: flex-end;}
-
-.cuentas li{
-    display:inline;
-    padding-left:10px;
-    padding-right:10px;
+    justify-content: flex-end;
+    
 }
+
 .burguer-menu{
     display:none
 }
+
+.home__header__form_search{
+    width:40%
 }
 
 
+}
 
 
 @media (min-width:1024px){

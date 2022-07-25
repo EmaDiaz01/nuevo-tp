@@ -34,7 +34,7 @@
                         
                     
 
-                    <nav class="home_header_menu">
+                    <nav class="home_header_menu show">
         <ul class="ofertas">
             
             <li><a href="/"> Ofertas </a></li>  
@@ -52,9 +52,11 @@
 
     </nav> 
 
-             <div class="burguer-menu">
-                    <button><i class="fas fa-bars"></i></button>
-            </div>
+    <div class="burguer">
+        <button class="burguer-menu" onclick="document.querySelector('.home_header_menu').classList.toggle('show')"><i class="fas fa-bars"></i></button>        
+    </div>
+    
+             
             <div class="home_header_banner">
                 <img src="/images/img-home-banner.jpg">
             </div>
