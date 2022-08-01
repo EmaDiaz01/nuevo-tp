@@ -1,9 +1,11 @@
+require('dotenv').config();
+
 const express=require('express')
 const path = require('path')
 const app= express()
-const port = 3031
 
-app.listen(port,()=>console.log('Server running in port http://localhost:'+ port))
+
+app.listen(process.env.PORT || 3031 ,()=>console.log('Server running in port http://localhost:'+ process.env.PORT))
 
 
 app.use(express.static('public'))
